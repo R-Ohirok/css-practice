@@ -1,25 +1,25 @@
 .people {
-  grid-template-columns: repeat(2, 224px);
+  grid-template-columns: repeat(2, 220px);
   justify-content: center;
-  gap: 40px 30px;
+  gap: 20px 10px;
   margin-top: 30px;
   display: grid;
 }
 
 @media (width >= 1000px) {
   .people {
-    grid-template-columns: repeat(4, 224px);
+    grid-template-columns: repeat(4, 220px);
   }
 }
 
 .wrapper {
-  width: 224px;
+  width: 220px;
   height: 231px;
 }
 
 .person {
-  width: 224px;
-  height: 231px;
+  width: 220px;
+  height: 251px;
   padding: 0;
   transition: transform 1s;
   position: absolute;
@@ -28,7 +28,7 @@
 .person__photo {
   box-sizing: border-box;
   height: 200px;
-  margin-bottom: 8px;
+  margin: 10px 10px 8px;
   position: relative;
 }
 
@@ -73,7 +73,7 @@
   z-index: 1;
   background-color: #eee;
   border-radius: 10px;
-  height: 250px;
+  height: 270px;
   transform: scale(1.2);
 }
 
