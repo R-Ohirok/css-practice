@@ -66,10 +66,13 @@
     height: 250px;
     background-color: #EEEEEE;
     border-radius: 10px;
-    padding: 12px;
     transform: scale(1.2);
+    width: 200px;
+
 
     .person {
+      width: 200px;
+
       &__photo {
         &--img {
           border-radius: 60px;
