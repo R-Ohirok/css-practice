@@ -1,17 +1,18 @@
 .wrapper {
   height: 231px;
-  width: 200px;
+  width: 220px;
 }
 
 .person {
   position: absolute;
-  height: 231px;
-  width: 200px;
+  height: 251px;
+  width: 220px;
   padding: 0;
 
   transition: all 1s;
 
   &__photo {
+    margin: 10px;
     position: relative;
     box-sizing: border-box;
     height: 200px;
@@ -63,16 +64,13 @@
 
   &:hover {
     z-index: 1;
-    height: 250px;
+    height: 270px;
     background-color: #EEEEEE;
     border-radius: 10px;
     transform: scale(1.2);
-    width: 200px;
 
 
     .person {
-      width: 200px;
-
       &__photo {
         &--img {
           border-radius: 60px;
