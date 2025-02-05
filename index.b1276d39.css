@@ -1,5 +1,5 @@
 .people {
-  grid-template-columns: repeat(2, 200px);
+  grid-template-columns: repeat(2, 224px);
   justify-content: center;
   gap: 40px 30px;
   margin-top: 30px;
@@ -8,20 +8,20 @@
 
 @media (width >= 1000px) {
   .people {
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(4, 224px);
   }
 }
 
 .wrapper {
-  width: 200px;
+  width: 224px;
   height: 231px;
 }
 
 .person {
-  width: 200px;
+  width: 224px;
   height: 231px;
   padding: 0;
-  transition: all 1s;
+  transition: transform 1s;
   position: absolute;
 }
 
@@ -74,7 +74,6 @@
   background-color: #eee;
   border-radius: 10px;
   height: 250px;
-  padding: 12px;
   transform: scale(1.2);
 }
 
