@@ -1,6 +1,6 @@
 .people {
   display: grid;
-  grid-template-columns: repeat(2, 200px);
+  grid-template-columns: repeat(2, 224px);
 
   gap: 40px 30px;
 
@@ -10,7 +10,7 @@
 
   @media (min-width: 1000px) {
     & {
-      grid-template-columns: repeat(4, 200px);
+      grid-template-columns: repeat(4, 224px);
     }
   }
 }
